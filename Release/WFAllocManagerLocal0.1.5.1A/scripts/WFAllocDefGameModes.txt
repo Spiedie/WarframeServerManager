@@ -1,0 +1,9 @@
+-config -mode 7 406000 0
+-config -mode 7 406009 0
+-config -mode 7 406010 0
+-config -mode 7 406011 0
+
+-config -mode 7 406000 2
+-config -mode 7 406009 2
+-config -mode 7 406010 2
+-config -mode 7 406011 2

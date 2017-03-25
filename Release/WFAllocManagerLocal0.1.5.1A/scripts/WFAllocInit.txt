@@ -1,0 +1,15 @@
+-script -run scripts\WFAllocScriptInit.txt
+-script -run scripts\WFAllocDisplayNames.txt
+-script -run scripts\WFAllocGameModeNames.txt
+-script -if alts -run scripts\WFAllocAltGameModes.txt
+-script -if nonalts -run scripts\WFAllocDefGameModes.txt
+
+
+//-script -run scripts\connectBot.txt
+
+-config -connect -name Warframe-Srv11 -instances 4
+-config -connect -name Warframe-Srv12 -instances 4
+-config -connect -name Warframe-Srv13 -instances 2
+//-config -connect -name Warframe-Srv14 -instances 2
+
+-config -listen
