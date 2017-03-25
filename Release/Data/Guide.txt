@@ -1,0 +1,73 @@
+Getting started/Example:
+		The files given are for the following:
+			In WFAllocInit: Servers named Warframe-Srvxx.
+				Warframe-Srv11
+				Warframe-Srv12
+				Warframe-Srv13
+				Warframe-Srv14
+			We are running 4 game modes:
+				DM Variant
+				DM Variant RC
+				TDM Variant
+				TDM Variant RC
+			GameModeNames are set to work with the settings in the WFServerConfig app ("Set config" button)
+			WFAllocDisplayNames are set for current game modes, but unused for now (for discord bot)
+			
+			ServerLogin it set to connect to localhost, change this to allocator ip/hostname (in info\server\ip.dat)
+			
+			Encryption keys
+				Easiest is to:
+					take Data\info\testPublic and put it in WFServerLogin\info\[version]Public
+					take Data\info\testPrivate and put it in WFAllocManager\info\[version]Private
+				
+		
+Details:
+	Check encryption keys:
+		in WFServerLogin: info\[version]Public exists, eg "info\0.1.2Public", no extension
+		in WFAllocManager:	info\[version]Private exists
+		can take test keys from Data\info (rename appropriately)
+		
+	Set Allocation behavior:
+		scripts\WFAllocInit.txt: Entry point + set connectors for every server.
+			For successfull connection, the server connecting to the allocator has to be registered with the allocator first.
+		scripts\WFAllocGameModes.txt: Set modes to run
+			So -config -mode 7 406013 0 => region = 7 (EU), gameModeId = 406013 (TDM_Alt_Title), eloRating = 0 (RC enabled)
+			Right now, it allocates the alternative modes. Without events, they shut down automatically after 5 minutes. Good for testing.
+				change in WFAllocScriptInit
+		scripts\WFAllocGameModeNames.txt: map names ([regionId]-[gameModeId]-[eloRating]) to setting in DS.cfg on the servers (should be good when set with WFConfigManager)
+		scripts\WFAllocDisplayNames.txt: basically, define replacements for internal names to readable text ("406014" to "FFA Variant" etc)
+		
+	Set ServerLogin
+		Theres 3 options:
+			ip: ip address or hostname for allocator
+			port: port to use, default 11024
+			name: the name used by the server to identify the connection, default is their hostname.
+		you set them by creating a file in the info folder, so for ip, you would create "info\server\ip.dat" with contents "Warframe-Srv11"
+		
+		
+		
+		
+	Allocator management:
+		You can run commands in the allocator. These are the same commands as in the scriptsType help for latest options
+			-state => Get state of instances. Example -state
+			-console => Add remote console. Example: -console -connect -ip MyServer -port 12345
+			-script => Run scripts. Examples:
+				-script -run path\to\scriptfile.txt
+				-script -set option
+				-script -if option -run script.txt
+			-troll => system.console.internal.test
+			-config => Manage settings. Examples:
+				-config -timer -updateDelay 120000 (check state and start/stop instances every 2 minutes)
+				-config -log -enable (-enable or -disable)
+				-config -set gameModeId 406014-0 SpDMAltRC
+				-config -mode 406014 0
+				-config -connect -name MyServer -instances 24
+				-config -connect -remove -name OldServer
+				-config -listen -port 11024
+			-perf => Check performance of servers. Example: -perf
+			-status => Get status overview. Example -status
+			-var => Set variables. Example: -var -set exe C:\Program Files\Warframe\Downloaded\Public\Warframe.x64.exe
+			-update => Update the state and perform actions on the state. Example -update
+			-test => Tests
+
+	
