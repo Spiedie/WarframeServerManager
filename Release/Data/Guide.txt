@@ -1,31 +1,17 @@
-Getting started/Example:
-		The files given are for the following:
-			In WFAllocInit: Servers named Warframe-Srvxx.
-				Warframe-Srv11
-				Warframe-Srv12
-				Warframe-Srv13
-				Warframe-Srv14
-			We are running 4 game modes:
-				DM Variant
-				DM Variant RC
-				TDM Variant
-				TDM Variant RC
-			GameModeNames are set to work with the settings in the WFServerConfig app ("Set config" button)
-			WFAllocDisplayNames are set for current game modes, but unused for now (for discord bot)
-			
-			ServerLogin it set to connect to localhost, change this to allocator ip/hostname (in info\server\ip.dat)
-			
-			Encryption keys
-				Easiest is to:
-					take Data\info\testPublic and put it in WFServerLogin\info\[version]Public
-					take Data\info\testPrivate and put it in WFAllocManager\info\[version]Private
-				
-		
+local ServerLogin TL:DR
+	if allocator and login not on same system: change WFServerLoginLocal\info\server\ip.dat to the ip address/hostname of the allocator
+	Create "WFServerLoginLocal\info\server\name.dat", with a name describing the system (eg MyServer1)
+	
+local Allocator TL:DR
+	Edit "WFAllocManagerLocal\info\server\name.dat", add "-config -connect -name MyServer1 -instances [x]", where [x] is the number of instances you want to support
+
 Details:
 	Check encryption keys:
 		in WFServerLogin: info\[version]Public exists, eg "info\0.1.2Public", no extension
 		in WFAllocManager:	info\[version]Private exists
-		can take test keys from Data\info (rename appropriately)
+		can take test keys from Data\info (rename appropriately):
+			take Data\info\testPublic and put it in WFServerLogin\info\[version]Public
+			take Data\info\testPrivate and put it in WFAllocManager\info\[version]Private
 		
 	Set Allocation behavior:
 		scripts\WFAllocInit.txt: Entry point + set connectors for every server.
@@ -48,7 +34,7 @@ Details:
 		
 		
 	Allocator management:
-		You can run commands in the allocator. These are the same commands as in the scriptsType help for latest options
+		You can run commands in the allocator. These are the same commands as in the scripts. Type help for latest options
 			-state => Get state of instances. Example -state
 			-console => Add remote console. Example: -console -connect -ip MyServer -port 12345
 			-script => Run scripts. Examples:
