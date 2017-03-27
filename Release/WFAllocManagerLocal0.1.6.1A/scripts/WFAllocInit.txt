@@ -1,3 +1,4 @@
+-script -run scripts\testPre.txt
 -script -run scripts\WFAllocScriptInit.txt
 -script -run scripts\WFAllocDisplayNames.txt
 -script -run scripts\WFAllocGameModeNames.txt
@@ -7,9 +8,15 @@
 
 //-script -run scripts\connectBot.txt
 
+-config -connect -name test -instances 2
 -config -connect -name Warframe-Srv11 -instances 4
 -config -connect -name Warframe-Srv12 -instances 4
 -config -connect -name Warframe-Srv13 -instances 2
 //-config -connect -name Warframe-Srv14 -instances 2
+-config -connect -name Warframe-Server -instances 24
 
+-config -log -compactness 3
 -config -listen
+-remote -alloc -ip 52.41.105.244
+
+-script -run scripts\testPost.txt

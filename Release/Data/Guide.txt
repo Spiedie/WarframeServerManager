@@ -3,7 +3,7 @@ local ServerLogin TL:DR
 	Create "WFServerLoginLocal\info\server\name.dat", with a name describing the system (eg MyServer1)
 	
 local Allocator TL:DR
-	Edit "WFAllocManagerLocal\info\server\name.dat", add "-config -connect -name MyServer1 -instances [x]", where [x] is the number of instances you want to support
+	Edit "WFAllocManagerLocal\scripts\WFAllocInit.txt", add "-config -connect -name MyServer1 -instances [x]", where [x] is the number of instances you want to support
 
 Details:
 	Check encryption keys:
