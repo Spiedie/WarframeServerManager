@@ -11,7 +11,7 @@ gameConfig=/Lotus/Types/GameRules/LotusDedicatedServerGameConfig
 {{Dropdown,missionId,Mission,Team Deathmatch[TDM_Title],Team Deathmatch Variant[TDM_Alt_Title],Deathmatch[DM_Title],Deathmatch Variant[DM_Alt_Title],Capture the Cephalon[CTF_Title],Lunaro[SB_Title]}}
 {{Dropdown,eloRating,RC,On[0],Off[2]}}
 {{Dropdown,highBandwidth,Network,30 FPS[0],60 FPS[1],120 FPS[2]}}
-{{Dropdown,clanOnly,Clan Only,No[2],Yes[1]}}
+{{Dropdown,clanOnly,Clan Only,No[0],Yes[1]}}
 {{TextField,motd,MOTD,"%s"}}
 missionIdToNode={
     {

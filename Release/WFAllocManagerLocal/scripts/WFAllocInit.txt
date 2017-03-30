@@ -8,7 +8,6 @@
 
 //-script -run scripts\connectBot.txt
 
--config -connect -name test -instances 2
 -config -connect -name Warframe-Srv11 -instances 4
 -config -connect -name Warframe-Srv12 -instances 4
 -config -connect -name Warframe-Srv13 -instances 2
