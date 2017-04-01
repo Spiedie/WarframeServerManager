@@ -7,11 +7,13 @@ local Allocator TL:DR
 
 Details:
 	Check encryption keys:
-		in WFServerLogin: info\[version]Public exists, eg "info\0.1.2Public", no extension
-		in WFAllocManager:	info\[version]Private exists
+		in WFServerLoginLocal: nothing to do
+		in WFAllocManagerLocal:	nothing to do
+		in WFServerLogin: info\Public exists
+		in WFAllocManager:	info\Private exists
 		can take test keys from Data\info (rename appropriately):
-			take Data\info\testPublic and put it in WFServerLogin\info\[version]Public
-			take Data\info\testPrivate and put it in WFAllocManager\info\[version]Private
+			take Data\info\testPublic and put it in WFServerLogin\info\Public
+			take Data\info\testPrivate and put it in WFAllocManager\info\Private
 		
 	Set Allocation behavior:
 		scripts\WFAllocInit.txt: Entry point + set connectors for every server.
@@ -28,28 +30,33 @@ Details:
 			ip: ip address or hostname for allocator
 			port: port to use, default 11024
 			name: the name used by the server to identify the connection, default is their hostname.
-		you set them by creating a file in the info folder, so for ip, you would create "info\server\ip.dat" with contents "Warframe-Srv11"
+		you set them by creating a file in the info folder, so for ip, you would create "info\server\ip.dat" with contents "MyServer1"
 		
 		
 		
 		
 	Allocator management:
 		You can run commands in the allocator. These are the same commands as in the scripts. Type help for latest options
+			-remote => Add remote connections. Examples:
+				-remote -console -ip MyServer -port 12345
+				-remote -log -ip MyServer -port 12345
+				-remote -alloc -ip MyServer -port 12345
 			-state => Get state of instances. Example -state
-			-console => Add remote console. Example: -console -connect -ip MyServer -port 12345
 			-script => Run scripts. Examples:
 				-script -run path\to\scriptfile.txt
 				-script -set option
+				-script -unset option
 				-script -if option -run script.txt
 			-troll => system.console.internal.test
 			-config => Manage settings. Examples:
 				-config -timer -updateDelay 120000 (check state and start/stop instances every 2 minutes)
 				-config -log -enable (-enable or -disable)
-				-config -set gameModeId 406014-0 SpDMAltRC
-				-config -mode 406014 0
+				-config -set gameModeName 7-406014-0 SpDMAltRC
+				-config -mode 7 406014 0
 				-config -connect -name MyServer -instances 24
 				-config -connect -remove -name OldServer
 				-config -listen -port 11024
+				-config -listenLocal -port 11025
 			-perf => Check performance of servers. Example: -perf
 			-status => Get status overview. Example -status
 			-var => Set variables. Example: -var -set exe C:\Program Files\Warframe\Downloaded\Public\Warframe.x64.exe
