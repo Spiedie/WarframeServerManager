@@ -12,10 +12,14 @@
 -config -connect -name Warframe-Srv12 -instances 4
 -config -connect -name Warframe-Srv13 -instances 2
 //-config -connect -name Warframe-Srv14 -instances 2
--config -connect -name Warframe-Server -instances 24
+-config -connect -name Spiedie-Server -instances 24
+
+//-config -allocName MyAllocatorName
 
 -config -log -compactness 3
 -config -listen
 -remote -alloc -ip 52.41.105.244
+
+
 
 -script -run scripts\testPost.txt
