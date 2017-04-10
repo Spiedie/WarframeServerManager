@@ -7,11 +7,7 @@
 
 //-script -run scripts\connectBot.txt
 
--config -connect -name Warframe-Srv11 -instances 4
--config -connect -name Warframe-Srv12 -instances 4
--config -connect -name Warframe-Srv13 -instances 2
-//-config -connect -name Warframe-Srv14 -instances 2
--config -connect -name Spiedie-Server -instances 24
+-config -connect -name MyServer1 -instances 4
 
 //-config -allocName MyAllocatorName
 
@@ -19,13 +15,13 @@
 -config -listen
 -remote -alloc -ip 52.41.105.244
 
--mode -enable 7-406000 -//CTF
--mode -enable 7-406009 -//TDM
--mode -enable 7-406010 -//DM
--mode -enable 7-406011 -//Lunaro
+-mode -enable 7 406000 //CTF
+-mode -enable 7 406009 //TDM
+-mode -enable 7 406010 //DM
+-mode -enable 7 406011 //Lunaro
 
-//-mode -enable 7-406012 -//CTF Variant (not yet entirely set up)
-//-mode -enable 7-406013 -//TDM Variant
-//-mode -enable 7-406014 -//DM Variant
+//-mode -enable 7 406012 //CTF Variant (not yet entirely set up)
+//-mode -enable 7 406013 //TDM Variant
+//-mode -enable 7 406014 //DM Variant
 
 -script -run scripts\testPost.txt
