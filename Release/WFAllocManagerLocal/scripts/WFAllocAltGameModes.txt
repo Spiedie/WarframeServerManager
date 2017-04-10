@@ -1,6 +1,0 @@
--config -mode 7 406013 0
--config -mode 7 406014 0
--config -mode 7 406013 2
--config -mode 7 406014 2
-
-

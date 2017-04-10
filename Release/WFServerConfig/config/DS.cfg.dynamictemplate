@@ -102,6 +102,10 @@ missionId=SB_Title
 eloRating=0
 missionId=CTF_Title
 
+[SpCTFAltRC,LotusDedicatedServerSettings]
+eloRating=0
+missionId=CTF_Alt_Title
+
 [SpTDM,LotusDedicatedServerSettings]
 eloRating=2
 missionId=TDM_Title
@@ -125,4 +129,9 @@ missionId=SB_Title
 [SpCTF,LotusDedicatedServerSettings]
 eloRating=2
 missionId=CTF_Title
+
+
+[SpCTFAlt,LotusDedicatedServerSettings]
+eloRating=2
+missionId=CTF_Alt_Title
 

@@ -1,3 +1,2 @@
 
-//-script -set alts
--script -set nonalts
+

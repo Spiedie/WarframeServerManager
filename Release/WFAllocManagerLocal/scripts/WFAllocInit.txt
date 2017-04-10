@@ -2,8 +2,7 @@
 -script -run scripts\WFAllocScriptInit.txt
 -script -run scripts\WFAllocDisplayNames.txt
 -script -run scripts\WFAllocGameModeNames.txt
--script -if alts -run scripts\WFAllocAltGameModes.txt
--script -if nonalts -run scripts\WFAllocDefGameModes.txt
+-script -run scripts\WFAllocDefGameModes.txt
 
 
 //-script -run scripts\connectBot.txt
@@ -20,6 +19,13 @@
 -config -listen
 -remote -alloc -ip 52.41.105.244
 
+-mode -enable 7-406000 -//CTF
+-mode -enable 7-406009 -//TDM
+-mode -enable 7-406010 -//DM
+-mode -enable 7-406011 -//Lunaro
 
+//-mode -enable 7-406012 -//CTF Variant (not yet entirely set up)
+//-mode -enable 7-406013 -//TDM Variant
+//-mode -enable 7-406014 -//DM Variant
 
 -script -run scripts\testPost.txt

@@ -7,12 +7,14 @@
 -config -set displayName 14- "RU "
 
 //game modes
--config -set displayName 406000 CTC
+-config -set displayName 406000 CTF
 -config -set displayName 406009 TA
 -config -set displayName 406010 FFA
 -config -set displayName 406011 Lunaro
+-config -set displayName 406012 "CTF Variant"
 -config -set displayName 406013 "TA Variant"
 -config -set displayName 406014 "FFA Variant"
+
 //RC
 -config -set displayName "-0" " RC"
 -config -set displayName "-2" " NonRC"
