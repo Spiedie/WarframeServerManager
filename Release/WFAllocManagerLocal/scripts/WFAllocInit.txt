@@ -4,9 +4,6 @@
 -script -run scripts\WFAllocGameModeNames.txt
 -script -run scripts\WFAllocDefGameModes.txt
 
-
-//-script -run scripts\connectBot.txt
-
 -config -connect -name MyServer1 -instances 4
 
 //-config -allocName MyAllocatorName

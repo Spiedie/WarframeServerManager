@@ -1,4 +1,4 @@
 title WFAllocManagerLocal
 cd /D %~dp0
-java -jar WFAllocManager0.1.8.8A.jar
+java -jar WFAllocManager0.1.9.1A.jar
 pause
