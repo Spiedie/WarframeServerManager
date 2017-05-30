@@ -1,0 +1,6 @@
+-config -set strings KEY_STRINGS_SYSTEMS_VERSION_HEADER "Allocator version %s"
+-config -set strings KEY_STRINGS_SYSTEMS_MAX_ESTIMATE "Estimated max servers: %2$.2f"
+
+
+
+

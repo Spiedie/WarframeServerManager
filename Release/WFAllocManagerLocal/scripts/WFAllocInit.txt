@@ -1,8 +1,8 @@
--script -run scripts\testPre.txt
--script -run scripts\WFAllocScriptInit.txt
--script -run scripts\WFAllocDisplayNames.txt
--script -run scripts\WFAllocGameModeNames.txt
--script -run scripts\WFAllocDefGameModes.txt
+-script -run scripts/testPre.txt
+-script -run scripts/WFAllocDisplayNames.txt
+-script -run scripts/WFAllocGameModeNames.txt
+-script -run scripts/WFAllocDefGameModes.txt
+-script -run scripts/WFAllocStrings.txt
 
 -config -connect -name MyServer1 -instances 4
 
@@ -10,6 +10,7 @@
 
 -config -log -compactness 3
 -config -listen
+-serverLogin
 -remote -alloc -ip 52.41.105.244
 
 -mode -enable 7 406000 //CTF
@@ -17,8 +18,9 @@
 -mode -enable 7 406010 //DM
 -mode -enable 7 406011 //Lunaro
 
-//-mode -enable 7 406012 //CTF Variant (not yet entirely set up)
-//-mode -enable 7 406013 //TDM Variant
-//-mode -enable 7 406014 //DM Variant
+//-mode -enable 7 406012 -trigger PVPMODE_CAPTURETHEFLAG //CTF Variant (not yet entirely set up)
 
--script -run scripts\testPost.txt
+-mode -enable 7 406013 -trigger PVPMODE_TEAMDEATHMATCH //TDM Variant
+-mode -enable 7 406014 -trigger PVPMODE_DEATHMATCH  //DM Variant
+
+-script -run scripts/testPost.txt
