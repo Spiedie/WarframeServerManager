@@ -1,0 +1,131 @@
++nowarning
++version=5
+
+[LotusDedicatedServerConfig,/EE/Types/Base/Config]
+{{Dropdown,App.DedicatedServerFrameRate,FPS,60,120,144,200,500}}
+
+[LotusDedicatedServerSettings,/Lotus/Types/Game/DedicatedServerSettings]
+version=7
+starChart=/Lotus/Types/Game/SolarMap/OriginSolarMapRedux
+gameConfig=/Lotus/Types/GameRules/LotusDedicatedServerGameConfig
+{{Dropdown,missionId,Mission,Team Deathmatch[TDM_Title],Team Deathmatch Variant[TDM_Alt_Title],Deathmatch[DM_Title],Deathmatch Variant[DM_Alt_Title],Capture the Cephalon[CTF_Title],Lunaro[SB_Title]}}
+{{Dropdown,eloRating,RC,On[0],Off[2]}}
+{{Dropdown,highBandwidth,Network,30 FPS[0],60 FPS[1],120 FPS[2]}}
+{{Dropdown,clanOnly,Clan Only,No[0],Yes[1]}}
+{{TextField,motd,MOTD,"%s"}}
+missionIdToNode={
+    {
+        id=SB_Title
+        node=PvpNode11
+    },
+    {
+        id=TDM_Title
+        node=PvpNode9
+    },
+    {
+        id=DM_Title
+        node=PvpNode10
+    },
+    {
+        id=CTF_Title
+        node=PvpNode0
+    },
+    {
+        id=DM_Alt_Title
+        node=PvpNode14
+    },
+    {
+        id=TDM_Alt_Title
+        node=PvpNode13
+    }
+}
+levelOverrides={
+    {
+        missionTag=PvpNode0
+        levels=/Lotus/Types/GameRules/PVPCTFLevels
+    },
+    {
+        missionTag=PvpNode10
+        levels=/Lotus/Types/GameRules/PVPDMLevels
+    },
+    {
+        missionTag=PvpNode9
+        levels=/Lotus/Types/GameRules/PVPDMLevels
+    },
+    {
+        missionTag=PvpNode11
+        levels=/Lotus/Types/GameRules/PVPSBLevels
+    },
+    {
+        missionTag=PvpNode13
+        levels=/Lotus/Types/GameRules/PVPDMLevels
+    },
+    {
+        missionTag=PvpNode14
+        levels=/Lotus/Types/GameRules/PVPDMLevels
+    }
+}
+PVPmodes={
+    PVPMODE_CAPTURETHEFLAG=CTF_Title
+    PVPMODE_CAPTURETHEFLAG_Alternative=PVPMODE_CAPTURETHEFLAG_ALTERNATIVE
+    PVPMODE_TEAMDEATHMATCH=TDM_Title
+    PVPMODE_TEAMDEATHMATCH_Alternative=PVPMODE_TEAMDEATHMATCH_ALTERNATIVE
+    PVPMODE_DEATHMATCH=DM_Title
+    PVPMODE_DEATHMATCH_Alternative=PVPMODE_DEATHMATCH_ALTERNATIVE
+    PVPMODE_SPEEDBALL=SB_Title
+    PVPMODE_DEATHMATCH_ALTERNATIVE=DM_Alt_Title
+    PVPMODE_TEAMDEATHMATCH_ALTERNATIVE=TDM_Alt_Title
+    PVPMODE_CAPTURETHEFLAG_ALTERNATIVE=CTF_Alt_Title
+}
+
+[SpTDMRC,LotusDedicatedServerSettings]
+eloRating=0
+missionId=TDM_Title
+
+[SpDMRC,LotusDedicatedServerSettings]
+eloRating=0
+missionId=DM_Title
+
+[SpTDMAltRC,LotusDedicatedServerSettings]
+eloRating=0
+missionId=TDM_Alt_Title
+
+[SpDMAltRC,LotusDedicatedServerSettings]
+eloRating=0
+missionId=DM_Alt_Title
+
+[SpLunaroRC,LotusDedicatedServerSettings]
+eloRating=0
+missionId=SB_Title
+
+[SpCTFRC,LotusDedicatedServerSettings]
+eloRating=0
+missionId=CTF_Title
+
+[SpCTFAltRC,LotusDedicatedServerSettings]
+eloRating=0
+missionId=CTF_Alt_Title
+
+[SpTDM,LotusDedicatedServerSettings]
+eloRating=2
+missionId=TDM_Title
+
+[SpDM,LotusDedicatedServerSettings]
+eloRating=2
+missionId=DM_Title
+
+[SpTDMAlt,LotusDedicatedServerSettings]
+eloRating=2
+missionId=TDM_Alt_Title
+
+[SpDMAlt,LotusDedicatedServerSettings]
+eloRating=2
+missionId=DM_Alt_Title
+
+[SpLunaro,LotusDedicatedServerSettings]
+eloRating=2
+missionId=SB_Title
+
+[SpCTF,LotusDedicatedServerSettings]
+eloRating=2
+missionId=CTF_Title
