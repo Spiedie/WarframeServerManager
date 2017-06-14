@@ -19,7 +19,6 @@
 -mode -enable 7 406011 //Lunaro
 
 //-mode -enable 7 406012 -trigger PVPMODE_CAPTURETHEFLAG //CTF Variant (not yet entirely set up)
-
 -mode -enable 7 406013 -trigger PVPMODE_TEAMDEATHMATCH //TDM Variant
 -mode -enable 7 406014 -trigger PVPMODE_DEATHMATCH  //DM Variant
 
