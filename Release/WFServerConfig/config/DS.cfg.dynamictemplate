@@ -5,7 +5,7 @@
 {{Dropdown,App.DedicatedServerFrameRate,FPS,60,120,144,200,500}}
 
 [LotusDedicatedServerSettings,/Lotus/Types/Game/DedicatedServerSettings]
-version=7
+version=8
 starChart=/Lotus/Types/Game/SolarMap/OriginSolarMapRedux
 gameConfig=/Lotus/Types/GameRules/LotusDedicatedServerGameConfig
 {{Dropdown,missionId,Mission,Team Deathmatch[TDM_Title],Team Deathmatch Variant[TDM_Alt_Title],Deathmatch[DM_Title],Deathmatch Variant[DM_Alt_Title],Capture the Cephalon[CTF_Title],Lunaro[SB_Title]}}
@@ -37,6 +37,10 @@ missionIdToNode={
     {
         id=TDM_Alt_Title
         node=PvpNode13
+    },
+    {
+        id=VT_Title
+        node=PvpNode15
     }
 }
 levelOverrides={
@@ -63,6 +67,10 @@ levelOverrides={
     {
         missionTag=PvpNode14
         levels=/Lotus/Types/GameRules/PVPDMLevels
+    },
+    {
+        missionTag=PvpNode15
+        levels=/Lotus/Types/GameRules/PVPDMLevels
     }
 }
 PVPmodes={
@@ -73,9 +81,12 @@ PVPmodes={
     PVPMODE_DEATHMATCH=DM_Title
     PVPMODE_DEATHMATCH_Alternative=PVPMODE_DEATHMATCH_ALTERNATIVE
     PVPMODE_SPEEDBALL=SB_Title
+    PVPMODE_VOIDTEAR=VT_Title
+    PVPMODE_VOIDTEAR_Alternative=PVPMODE_VOIDTEAR_ALTERNATIVE
     PVPMODE_DEATHMATCH_ALTERNATIVE=DM_Alt_Title
     PVPMODE_TEAMDEATHMATCH_ALTERNATIVE=TDM_Alt_Title
     PVPMODE_CAPTURETHEFLAG_ALTERNATIVE=CTF_Alt_Title
+    PVPMODE_VOIDTEAR_ALTERNATIVE=VT_Alt_Title
 }
 
 [SpTDMRC,LotusDedicatedServerSettings]
