@@ -4,7 +4,7 @@
 -script -run scripts/WFAllocDefGameModes.txt
 -script -run scripts/WFAllocStrings.txt
 
--config -connect -name MyServer1 -instances 4
+-config -connect -name MyServer1 -instances 24
 
 //-config -allocName MyAllocatorName
 
@@ -23,3 +23,4 @@
 -mode -enable 7 406014 -trigger PVPMODE_DEATHMATCH  //DM Variant
 
 -script -run scripts/testPost.txt
+-script -run scripts/WFCustom.txt
