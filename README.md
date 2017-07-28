@@ -9,7 +9,7 @@ The config manager is a simple tool to set up and run Warframe dedicated server 
 * Setting the dedicated server config, with a simple and easy interface (that remembers your settings)
 * Patching Warframe
 * Starting server instances
-![ConfigManager](https://raw.githubusercontent.com/Spiedie/WarframeServerManager/master/Media/readme-configmanager.png) ![ConfigManager](https://raw.githubusercontent.com/Spiedie/WarframeServerManager/master/Media/readme-starter.png)
+![ConfigManager](https://raw.githubusercontent.com/Spiedie/WarframeServerManager/master/Media/readme-configmanagerstarter.png) 
 
 #### Allocator
 The allocator is a tool that automatically handles starting and stopping servers for you. The more players are playing a game mode, the more server instances will be started for that mode. The most popular game mode will automatically get the most instances.
