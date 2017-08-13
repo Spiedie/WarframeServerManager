@@ -24,12 +24,14 @@ The allocator can also send info about what is running to a [Discord bot](discor
 Both tools need Java 8 to be installed. You can find the tools in the Release folder. The estimated minimum requirements are:
 * ~500-700 MB ram per server instance + OS ram requirements
 * ~1 core per server instance
-* ~20GB disk space per 6 instances you want to run
+* ~25GB disk space per 6 instances you want to run
 
 To have your servers log in under your account, you have to tell it what email to login with. You can simply log into warframe once and quit to have this set up for you. To do this manually, go to %localappdata%\Warframe and edit the EE.cfg file and modify the LotusDedicatedServerAccountSettings as follows:
 
-> [LotusDedicatedServerAccountSettings,/Lotus/Types/Game/DedicatedServerAccountSettings]
-> email=youremail
+```
+[LotusDedicatedServerAccountSettings,/Lotus/Types/Game/DedicatedServerAccountSettings]
+email=youremail
+```
 
 #### Config Manager
 Run it like any other java program. If java is installed properly, double clicking the .jar file should do.
