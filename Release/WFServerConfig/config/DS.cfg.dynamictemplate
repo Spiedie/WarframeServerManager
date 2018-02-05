@@ -71,7 +71,7 @@ levelOverrides={
     },
     {
         missionTag=PvpNode15
-        levels=/Lotus/Types/GameRules/PVPDMLevels
+        levels=/Lotus/Types/GameRules/PVPVoidTearLevels
     }
 }
 PVPmodes={
@@ -120,6 +120,11 @@ missionId=TDM_Alt_Title
 eloRating=0
 
 
+[SpVTRC,LotusDedicatedServerSettings]
+missionId=VT_Title
+eloRating=0
+
+
 [SpDM,LotusDedicatedServerSettings]
 missionId=DM_Title
 eloRating=2
@@ -149,5 +154,9 @@ eloRating=2
 missionId=TDM_Alt_Title
 eloRating=2
 
+
+[SpVT,LotusDedicatedServerSettings]
+missionId=VT_Title
+eloRating=2
 
 

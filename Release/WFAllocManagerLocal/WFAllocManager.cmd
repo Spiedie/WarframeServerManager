@@ -1,4 +1,4 @@
-title WFAllocManagerLocal0.1.14.3A
+title WFAllocManagerLocal0.2.2.4
 pushd %~dp0
-java -jar WFAllocManager0.1.14.3A.jar
+java -Xmx192M -jar WFAllocManager0.2.2.4.jar
 pause

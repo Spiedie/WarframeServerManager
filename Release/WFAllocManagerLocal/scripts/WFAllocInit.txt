@@ -1,17 +1,16 @@
--script -run scripts/testPre.txt
 -script -run scripts/WFAllocDisplayNames.txt
 -script -run scripts/WFAllocGameModeNames.txt
 -script -run scripts/WFAllocDefGameModes.txt
 -script -run scripts/WFAllocStrings.txt
 
--config -connect -name MyServer1 -instances 24
+-config -connect -name MyServer1 -instances 4
 
 //-config -allocName MyAllocatorName
 
 -config -log -compactness 3
 -config -listen
 -serverLogin
--remote -alloc -ip 52.41.105.244
+-remote -alloc -ip 52.173.73.48 -enableRemoteControl
 
 -mode -enable 7 406000 //CTF
 -mode -enable 7 406009 //TDM
@@ -21,6 +20,3 @@
 //-mode -enable 7 406012 -trigger PVPMODE_CAPTURETHEFLAG //CTF Variant (not yet entirely set up)
 -mode -enable 7 406013 -trigger PVPMODE_TEAMDEATHMATCH //TDM Variant
 -mode -enable 7 406014 -trigger PVPMODE_DEATHMATCH  //DM Variant
-
--script -run scripts/testPost.txt
--script -run scripts/WFCustom.txt
