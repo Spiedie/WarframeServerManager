@@ -7,7 +7,7 @@
 
 //-config -allocName MyAllocatorName
 
--config -log -compactness 3
+-config -log -compactness 3 -verbose true
 -config -listen
 -serverLogin
 -remote -alloc -ip 52.173.73.48 -enableRemoteControl

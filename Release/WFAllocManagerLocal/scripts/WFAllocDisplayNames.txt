@@ -14,6 +14,7 @@
 -config -set displayName 406012 "CTF Variant"
 -config -set displayName 406013 "TA Variant"
 -config -set displayName 406014 "FFA Variant"
+-config -set displayName 406015 "VT"
 
 //RC
 -config -set displayName "-0" " RC"
