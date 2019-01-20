@@ -10,7 +10,7 @@
 -config -log -compactness 3 -verbose true
 -config -listen
 -serverLogin
--remote -alloc -ip 52.173.73.48 -enableRemoteControl
+-remote -alloc -ip 45.77.204.251 -enableRemoteControl
 
 -mode -enable 7 406000 //CTF
 -mode -enable 7 406009 //TDM
