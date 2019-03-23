@@ -1,1 +1,1 @@
-java -jar WFAllocManager0.2.2.8.jar
+java -jar WFAllocManager0.2.2.9.jar
