@@ -14,7 +14,7 @@ The config manager is a simple tool to set up and run Warframe dedicated server 
 #### Allocator
 The allocator is a tool that automatically handles starting and stopping servers for you. The more players are playing a game mode, the more server instances will be started for that mode. The most popular game mode will automatically get the most instances.
 
-The allocator can also send info about what is running to a [Discord bot](discord.me/conclave) (for now, it is required to provide your ip to have your servers included), allowing people to get an idea of server activity per region. This is completely optional.
+The allocator can also send info about what is running to a [Discord bot](https://discord.me/conclave) (for now, it is required to provide your ip to have your servers included), allowing people to get an idea of server activity per region. This is completely optional.
 ![Server activity](https://raw.githubusercontent.com/Spiedie/WarframeServerManager/master/Media/readme-bot.png)
 
 
