@@ -13,6 +13,7 @@ gameConfig=/Lotus/Types/GameRules/LotusDedicatedServerGameConfig
 {{Dropdown,highBandwidth,Network,30 FPS[0],60 FPS[1],120 FPS[2]}}
 {{Dropdown,clanOnly,Clan Only,No[0],Yes[1]}}
 {{Dropdown,allianceOnly,Alliance Only,No[0],Yes[1]}}
+{{Dropdown,allowXPlatform,Allow Cross-Platform,No[0],Yes[1]}}
 {{TextField,motd,MOTD,"%s"}}
 missionIdToNode={
     {
