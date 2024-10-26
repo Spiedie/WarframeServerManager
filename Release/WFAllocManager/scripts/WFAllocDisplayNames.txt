@@ -1,0 +1,21 @@
+//regions
+-config -set displayName 4- "NA "
+-config -set displayName 6- "SA "
+-config -set displayName 7- "EU "
+-config -set displayName 8- "Asia "
+-config -set displayName 9- "Oceania "
+-config -set displayName 14- "RU "
+
+//game modes
+-config -set displayName 406000 CTF
+-config -set displayName 406009 TA
+-config -set displayName 406010 FFA
+-config -set displayName 406011 Lunaro
+-config -set displayName 406012 "CTF Variant"
+-config -set displayName 406013 "TA Variant"
+-config -set displayName 406014 "FFA Variant"
+-config -set displayName 406015 "VT"
+
+//RC
+-config -set displayName "-0" " RC"
+-config -set displayName "-2" " NonRC"

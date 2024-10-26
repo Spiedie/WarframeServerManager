@@ -1,4 +1,4 @@
-title WFServerConfig0.2.10.4
+title WFServerConfig
 pushd %~dp0
-start javaw -jar WFServerConfig0.2.10.4.jar
+start javaw -jar WFServerConfig.jar
 exit

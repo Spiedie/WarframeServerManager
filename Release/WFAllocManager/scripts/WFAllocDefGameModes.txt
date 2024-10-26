@@ -1,0 +1,112 @@
+//NA
+-config -mode 4 406000 0 //NA CTF RC
+-config -mode 4 406000 2 //NA CTF NonRC
+-config -mode 4 406009 0 //NA TDM RC
+-config -mode 4 406009 2 //NA TDM NonRC
+-config -mode 4 406010 0 //NA DM RC
+-config -mode 4 406010 2 //NA DM NonRC
+-config -mode 4 406011 0 //NA Lunaro RC
+-config -mode 4 406011 2 //NA Lunaro NonRC
+-config -mode 4 406012 0 //NA CTF Variant RC
+-config -mode 4 406012 2 //NA CTF Variant NonRC
+-config -mode 4 406013 0 //NA TDM Variant RC
+-config -mode 4 406013 2 //NA TDM Variant NonRC
+-config -mode 4 406014 0 //NA DM Variant RC
+-config -mode 4 406014 2 //NA DM Variant NonRC
+-config -mode 4 406015 0 //NA VT RC
+-config -mode 4 406015 2 //NA VT NonRC
+
+
+//SA
+-config -mode 6 406000 0 //SA CTF RC
+-config -mode 6 406000 2 //SA CTF NonRC
+-config -mode 6 406009 0 //SA TDM RC
+-config -mode 6 406009 2 //SA TDM NonRC
+-config -mode 6 406010 0 //SA DM RC
+-config -mode 6 406010 2 //SA DM NonRC
+-config -mode 6 406011 0 //SA Lunaro RC
+-config -mode 6 406011 2 //SA Lunaro NonRC
+-config -mode 6 406012 0 //SA CTF Variant RC
+-config -mode 6 406012 2 //SA CTF Variant NonRC
+-config -mode 6 406013 0 //SA TDM Variant RC
+-config -mode 6 406013 2 //SA TDM Variant NonRC
+-config -mode 6 406014 0 //SA DM Variant RC
+-config -mode 6 406014 2 //SA DM Variant NonRC
+-config -mode 6 406015 0 //SA VT RC
+-config -mode 6 406015 2 //SA VT NonRC
+
+
+//EU
+-config -mode 7 406000 0 //EU CTF RC
+-config -mode 7 406000 2 //EU CTF NonRC
+-config -mode 7 406009 0 //EU TDM RC
+-config -mode 7 406009 2 //EU TDM NonRC
+-config -mode 7 406010 0 //EU DM RC
+-config -mode 7 406010 2 //EU DM NonRC
+-config -mode 7 406011 0 //EU Lunaro RC
+-config -mode 7 406011 2 //EU Lunaro NonRC
+-config -mode 7 406012 0 //EU CTF Variant RC
+-config -mode 7 406012 2 //EU CTF Variant NonRC
+-config -mode 7 406013 0 //EU TDM Variant RC
+-config -mode 7 406013 2 //EU TDM Variant NonRC
+-config -mode 7 406014 0 //EU DM Variant RC
+-config -mode 7 406014 2 //EU DM Variant NonRC
+-config -mode 7 406015 0 //EU VT RC
+-config -mode 7 406015 2 //EU VT NonRC
+
+
+//Asia
+-config -mode 8 406000 0 //Asia CTF RC
+-config -mode 8 406000 2 //Asia CTF NonRC
+-config -mode 8 406009 0 //Asia TDM RC
+-config -mode 8 406009 2 //Asia TDM NonRC
+-config -mode 8 406010 0 //Asia DM RC
+-config -mode 8 406010 2 //Asia DM NonRC
+-config -mode 8 406011 0 //Asia Lunaro RC
+-config -mode 8 406011 2 //Asia Lunaro NonRC
+-config -mode 8 406012 0 //Asia CTF Variant RC
+-config -mode 8 406012 2 //Asia CTF Variant NonRC
+-config -mode 8 406013 0 //Asia TDM Variant RC
+-config -mode 8 406013 2 //Asia TDM Variant NonRC
+-config -mode 8 406014 0 //Asia DM Variant RC
+-config -mode 8 406014 2 //Asia DM Variant NonRC
+-config -mode 8 406015 0 //Asia VT RC
+-config -mode 8 406015 2 //Asia VT NonRC
+
+
+//Oceania
+-config -mode 9 406000 0 //Oceania CTF RC
+-config -mode 9 406000 2 //Oceania CTF NonRC
+-config -mode 9 406009 0 //Oceania TDM RC
+-config -mode 9 406009 2 //Oceania TDM NonRC
+-config -mode 9 406010 0 //Oceania DM RC
+-config -mode 9 406010 2 //Oceania DM NonRC
+-config -mode 9 406011 0 //Oceania Lunaro RC
+-config -mode 9 406011 2 //Oceania Lunaro NonRC
+-config -mode 9 406012 0 //Oceania CTF Variant RC
+-config -mode 9 406012 2 //Oceania CTF Variant NonRC
+-config -mode 9 406013 0 //Oceania TDM Variant RC
+-config -mode 9 406013 2 //Oceania TDM Variant NonRC
+-config -mode 9 406014 0 //Oceania DM Variant RC
+-config -mode 9 406014 2 //Oceania DM Variant NonRC
+-config -mode 9 406015 0 //Oceania VT RC
+-config -mode 9 406015 2 //Oceania VT NonRC
+
+
+//RU
+-config -mode 14 406000 0 //RU CTF RC
+-config -mode 14 406000 2 //RU CTF NonRC
+-config -mode 14 406009 0 //RU TDM RC
+-config -mode 14 406009 2 //RU TDM NonRC
+-config -mode 14 406010 0 //RU DM RC
+-config -mode 14 406010 2 //RU DM NonRC
+-config -mode 14 406011 0 //RU Lunaro RC
+-config -mode 14 406011 2 //RU Lunaro NonRC
+-config -mode 14 406012 0 //RU CTF Variant RC
+-config -mode 14 406012 2 //RU CTF Variant NonRC
+-config -mode 14 406013 0 //RU TDM Variant RC
+-config -mode 14 406013 2 //RU TDM Variant NonRC
+-config -mode 14 406014 0 //RU DM Variant RC
+-config -mode 14 406014 2 //RU DM Variant NonRC
+-config -mode 14 406015 0 //RU VT RC
+-config -mode 14 406015 2 //RU VT NonRC

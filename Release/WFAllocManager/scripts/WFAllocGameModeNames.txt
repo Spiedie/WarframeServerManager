@@ -1,0 +1,115 @@
+//NA
+-config -set gameModeName 4-406000-0 SpCTFRC
+-config -set gameModeName 4-406009-0 SpTDMRC
+-config -set gameModeName 4-406010-0 SpDMRC
+-config -set gameModeName 4-406011-0 SpLunaroRC
+-config -set gameModeName 4-406012-0 SpCTFAltRC
+-config -set gameModeName 4-406013-0 SpTDMAltRC
+-config -set gameModeName 4-406014-0 SpDMAltRC
+-config -set gameModeName 4-406015-0 SpVTRC
+
+-config -set gameModeName 4-406000-2 SpCTF
+-config -set gameModeName 4-406009-2 SpTDM
+-config -set gameModeName 4-406010-2 SpDM
+-config -set gameModeName 4-406011-2 SpLunaro
+-config -set gameModeName 4-406012-2 SpCTFAlt
+-config -set gameModeName 4-406013-2 SpTDMAlt
+-config -set gameModeName 4-406014-2 SpDMAlt
+-config -set gameModeName 4-406015-2 SpVT
+
+//SA
+-config -set gameModeName 6-406000-0 SpCTFRC
+-config -set gameModeName 6-406009-0 SpTDMRC
+-config -set gameModeName 6-406010-0 SpDMRC
+-config -set gameModeName 6-406011-0 SpLunaroRC
+-config -set gameModeName 6-406012-0 SpCTFAltRC
+-config -set gameModeName 6-406013-0 SpTDMAltRC
+-config -set gameModeName 6-406014-0 SpDMAltRC
+-config -set gameModeName 6-406015-0 SpVTRC
+
+-config -set gameModeName 6-406000-2 SpCTF
+-config -set gameModeName 6-406009-2 SpTDM
+-config -set gameModeName 6-406010-2 SpDM
+-config -set gameModeName 6-406011-2 SpLunaro
+-config -set gameModeName 6-406012-2 SpCTFAlt
+-config -set gameModeName 6-406013-2 SpTDMAlt
+-config -set gameModeName 6-406014-2 SpDMAlt
+-config -set gameModeName 6-406015-2 SpVT
+
+//EU
+-config -set gameModeName 7-406000-0 SpCTFRC
+-config -set gameModeName 7-406009-0 SpTDMRC
+-config -set gameModeName 7-406010-0 SpDMRC
+-config -set gameModeName 7-406011-0 SpLunaroRC
+-config -set gameModeName 7-406012-0 SpCTFAltRC
+-config -set gameModeName 7-406013-0 SpTDMAltRC
+-config -set gameModeName 7-406014-0 SpDMAltRC
+-config -set gameModeName 7-406015-0 SpVTRC
+
+-config -set gameModeName 7-406000-2 SpCTF
+-config -set gameModeName 7-406009-2 SpTDM
+-config -set gameModeName 7-406010-2 SpDM
+-config -set gameModeName 7-406011-2 SpLunaro
+-config -set gameModeName 7-406012-2 SpCTFAlt
+-config -set gameModeName 7-406013-2 SpTDMAlt
+-config -set gameModeName 7-406014-2 SpDMAlt
+-config -set gameModeName 7-406015-2 SpVT
+
+//Asia
+-config -set gameModeName 8-406000-0 SpCTFRC
+-config -set gameModeName 8-406009-0 SpTDMRC
+-config -set gameModeName 8-406010-0 SpDMRC
+-config -set gameModeName 8-406011-0 SpLunaroRC
+-config -set gameModeName 8-406012-0 SpCTFAltRC
+-config -set gameModeName 8-406013-0 SpTDMAltRC
+-config -set gameModeName 8-406014-0 SpDMAltRC
+-config -set gameModeName 8-406015-0 SpVTRC
+
+-config -set gameModeName 8-406000-2 SpCTF
+-config -set gameModeName 8-406009-2 SpTDM
+-config -set gameModeName 8-406010-2 SpDM
+-config -set gameModeName 8-406011-2 SpLunaro
+-config -set gameModeName 8-406012-2 SpCTFAlt
+-config -set gameModeName 8-406013-2 SpTDMAlt
+-config -set gameModeName 8-406014-2 SpDMAlt
+-config -set gameModeName 8-406015-2 SpVT
+
+//Oceania
+-config -set gameModeName 9-406000-0 SpCTFRC
+-config -set gameModeName 9-406009-0 SpTDMRC
+-config -set gameModeName 9-406010-0 SpDMRC
+-config -set gameModeName 9-406011-0 SpLunaroRC
+-config -set gameModeName 9-406012-0 SpCTFAltRC
+-config -set gameModeName 9-406013-0 SpTDMAltRC
+-config -set gameModeName 9-406014-0 SpDMAltRC
+-config -set gameModeName 9-406015-0 SpVTRC
+
+-config -set gameModeName 9-406000-2 SpCTF
+-config -set gameModeName 9-406009-2 SpTDM
+-config -set gameModeName 9-406010-2 SpDM
+-config -set gameModeName 9-406011-2 SpLunaro
+-config -set gameModeName 9-406012-2 SpCTFAlt
+-config -set gameModeName 9-406013-2 SpTDMAlt
+-config -set gameModeName 9-406014-2 SpDMAlt
+-config -set gameModeName 9-406015-2 SpVT
+
+//RU
+-config -set gameModeName 14-406000-0 SpCTFRC
+-config -set gameModeName 14-406009-0 SpTDMRC
+-config -set gameModeName 14-406010-0 SpDMRC
+-config -set gameModeName 14-406011-0 SpLunaroRC
+-config -set gameModeName 14-406012-0 SpCTFAltRC
+-config -set gameModeName 14-406013-0 SpTDMAltRC
+-config -set gameModeName 14-406014-0 SpDMAltRC
+-config -set gameModeName 14-406015-0 SpVTRC
+
+-config -set gameModeName 14-406000-2 SpCTF
+-config -set gameModeName 14-406009-2 SpTDM
+-config -set gameModeName 14-406010-2 SpDM
+-config -set gameModeName 14-406011-2 SpLunaro
+-config -set gameModeName 14-406012-2 SpCTFAlt
+-config -set gameModeName 14-406013-2 SpTDMAlt
+-config -set gameModeName 14-406014-2 SpDMAlt
+-config -set gameModeName 14-406015-2 SpVT
+
+
