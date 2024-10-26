@@ -1,0 +1,12 @@
+-script -run scripts/WFAllocDisplayNames.txt
+-script -run scripts/WFAllocGameModeNames.txt
+-script -run scripts/WFAllocDefGameModes.txt
+-script -run scripts/WFAllocStrings.txt
+
+
+
+-config -log -compactness 3 -verbose true
+-config -listenLocal
+-config -listenConsole
+
+-config -timer -updateDelay 1200000
